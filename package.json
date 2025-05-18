@@ -1,0 +1,40 @@
+{
+  "name": "agapi-villa",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://www.agapi-on-crete.com",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "react-helmet": "^6.1.0",
+    "framer-motion": "^10.4.0",
+    "google-map-react": "^2.1.10",
+    "react-image-lightbox": "^5.1.1",
+    "react-datepicker": "^4.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
